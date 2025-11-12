@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "personas": [
+    {
+      "id": "frontend-dev",
+      "name": "Frontend Developer",
+      "description": "Build modern web interfaces with React, Vue, and modern tooling",
+      "category": "Web Development",
+      "packages": [
+        "nodejs", "npm", "yarn", "git", "code", "firefox", "chromium",
+        "webpack", "vite", "prettier", "eslint"
+      ],
+      "aur_packages": [
+        "nvm", "postman-bin", "figma-linux"
+      ]
+    },
+    {
+      "id": "backend-dev",
+      "name": "Backend Developer",
+      "description": "Server-side development with Python, Node.js, and databases",
+      "category": "Web Development",
+      "packages": [
+        "python", "python-pip", "nodejs", "npm", "postgresql", "redis",
+        "docker", "docker-compose", "git", "code", "nginx"
+      ],
+      "aur_packages": [
+        "postman-bin", "dbeaver"
+      ]
+    },
+    {
+      "id": "fullstack-dev",
+      "name": "Full Stack Developer",
+      "description": "Complete web development stack - frontend and backend",
+      "category": "Web Development",
+      "extends": ["frontend-dev", "backend-dev"]
+    },
+    {
+      "id": "android-dev",
+      "name": "Android Developer",
+      "description": "Android app development with Kotlin and Java",
+      "category": "Mobile Development",
+      "packages": [
+        "jdk-openjdk", "kotlin", "gradle", "git", "code"
+      ],
+      "aur_packages": [
+        "android-studio", "android-sdk", "android-sdk-platform-tools"
+      ]
+    },
+    {
+      "id": "aiml-dev",
+      "name": "AI/ML Developer",
+      "description": "Machine learning and AI development with Python",
+      "category": "Data & AI",
+      "packages": [
+        "python", "python-pip", "python-numpy", "python-pandas",
+        "python-scikit-learn", "python-matplotlib", "jupyter-notebook",
+        "git", "code", "cuda", "cudnn"
+      ],
+      "aur_packages": [
+        "pycharm-community-edition", "anaconda"
+      ]
+    },
+    {
+      "id": "devops-eng",
+      "name": "DevOps Engineer",
+      "description": "Infrastructure automation and CI/CD pipelines",
+      "category": "Infrastructure",
+      "packages": [
+        "docker", "docker-compose", "kubectl", "terraform", "ansible",
+        "git", "code", "python", "bash", "vim"
+      ],
+      "aur_packages": [
+        "lens-bin", "helm"
+      ]
+    },
+    {
+      "id": "security-eng",
+      "name": "Security Engineer",
+      "description": "Cybersecurity tools and penetration testing",
+      "category": "Security",
+      "packages": [
+        "nmap", "wireshark-qt", "metasploit", "aircrack-ng",
+        "john", "hashcat", "git", "python", "code"
+      ],
+      "aur_packages": [
+        "burpsuite", "zaproxy"
+      ]
+    },
+    {
+      "id": "game-dev",
+      "name": "Game Developer",
+      "description": "Game development with Unity, Godot, and Blender",
+      "category": "Specialized",
+      "packages": [
+        "godot", "blender", "gimp", "audacity", "git", "code"
+      ],
+      "aur_packages": [
+        "unityhub", "aseprite"
+      ]
+    }
+  ]
+}
